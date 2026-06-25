@@ -1,0 +1,134 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, Arial Black;
+}
+
+header {background-color: black}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+}
+
+.headlogo img {
+    width: 200px;
+    height: auto;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.hero{
+    display: flex;
+    padding: 80px 150px;
+    gap: 40px;
+    background-color: black; color: #ffffff;
+}
+
+.hero-img img{
+    width: 500px;
+    height: auto;
+}
+
+.hero-txt h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.hero-txt p {
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.hero button{
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.info {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px 100px;
+}
+
+.info-card {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card img{
+    width: 200px;
+    height: auto;
+}
+
+.quote {
+    background-color: black;
+    padding: 100px 150px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.quote .author{
+    text-align: right;
+}
+
+.cat {
+    display: flex;
+    background-color: black;
+    padding: 50px 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.meow {
+    display: flex;
+    height: 100px;
+    width: 900px;
+    background-color: white;
+    border-radius: 12px;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+}
+
+.meow p {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.meow button{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 100px;
+    font-size: 18px;
+    font-weight: 400;
+}
